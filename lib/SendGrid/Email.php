@@ -19,7 +19,7 @@ class Email
         $html,
         $date,
         $content,
-        $headers,
+        $headers = array(),
         $smtpapi,
         $attachments;
 

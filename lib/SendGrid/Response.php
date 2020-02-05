@@ -6,7 +6,7 @@ class Response
 {
     public
         $code,
-        $headers,
+        $headers = array(),
         $raw_body,
         $body;
 
